@@ -21,14 +21,14 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send the ping result
         await conn.sendMessage(from, { 
-            text: `*𝙺𝙴𝙴𝙽𝙻𝚈 𝚇𝙼𝙳 𝚂𝙿𝙴𝙴𝙳: ${ping}ms*`, 
+            text: `*ʟᴏʀᴅ ʀᴀʜʟ 𝚂𝙿𝙴𝙴𝙳: ${ping}ms*`, 
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363416335506023@newsletter',
-                    newsletterName: '𝙺𝙴𝙴𝙽𝙻𝚈 𝚇𝙼𝙳',
+                    newsletterName: 'ʟᴏʀᴅ ʀᴀʜʟ',
                     serverMessageId: 143
                 }
             }
@@ -51,10 +51,10 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '> *𝙺𝙴𝙴𝙽𝙻𝚈 𝚇𝙼𝙳...*' })
+        const message = await conn.sendMessage(from, { text: '> *ʟᴏʀᴅ ʀᴀʜʟ...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*𝙺𝙴𝙴𝙽𝙻𝚈 𝚇𝙼𝙳 𝚂𝙿𝙴𝙴𝙳 : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*ʟᴏʀᴅ ʀᴀʜʟ 𝚂𝙿𝙴𝙴𝙳 : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
