@@ -18,15 +18,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃🦄┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃🦄┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}GB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}TB
 ┃🦄┃• *⚙️ HostName*: ${os.hostname()}
-┃🦄┃• *👨‍💻 Owner*: ᴏʙᴇᴅᴛᴇᴄʜ
+┃🦄┃• *👨‍💻 Owner*: ʟᴏʀᴅ ʀᴀʜʟ
 ┃🦄┃• *🧬 Version*: 6.0.0
-✦ 𝙆𝙀𝙀𝙉𝙇𝙔 𝙓𝙈𝘿 ✦
+✦ 𝐋𝐎𝐑𝐃 𝐑𝐀𝐇𝐋 ✦
 ╰──────────────┈⊷
-> © ✦ 𝙆𝙀𝙀𝙉𝙇𝙔 𝙓𝙈𝘿 ✦`;
+> © ✦ 𝐋𝐎𝐑𝐃 𝐑𝐀𝐇𝐋 ✦`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/9yic1a.jpg` },  
+            image: { url: `https://files.catbox.moe/yedfbr.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -34,7 +34,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363416335506023@newsletter',
-                    newsletterName: '𝙆𝙀𝙀𝙉𝙇𝙔 𝙓𝙈𝘿🎄',
+                    newsletterName: '𝐋𝐎𝐑𝐃 𝐑𝐀𝐇𝐋🎄',
                     serverMessageId: 143
                 }
             }
