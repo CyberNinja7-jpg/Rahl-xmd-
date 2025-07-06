@@ -23,7 +23,7 @@ const commandCount = Object.keys(require.cache)
 cmd({
     pattern: "repo",
     alias: ["sc", "script", "info"],
-    desc: "Show KEENLY XMD repository details",
+    desc: "Show 𝐋𝐎𝐑𝐃 𝐑𝐀𝐇𝐋 repository details",
     category: "main",
     react: "👨‍💻",
     filename: __filename
@@ -42,7 +42,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         const msg = `
 ┏━━━『 *👨‍💻 KEENLY XMD Info* 』━━━✦
 ┃ 🔗 *Repo*: 
-┃   github.com/Obedweb/KEENLY-XMD
+┃   github.com/lordrahl2-sys/Lord-lahl
 ┃ 
 ┃ ⭐ *Stars*: ${stargazers_count}
 ┃ 🍴 *Forks*: ${forks_count}
@@ -54,10 +54,10 @@ async (conn, mek, m, { from, quoted, reply }) => {
 ┃ 💽 *System*: ${platform} (${arch})
 ┗━━━━━━━━━━━━━━━━━━━━━━✦
 
-✨ *KEENLY XMD* – your feature-packed WhatsApp bot for automation, fun, and more!
+✨ *𝐋𝐎𝐑𝐃 𝐑𝐀𝐇𝐋* – your feature-packed WhatsApp bot for automation, fun, and more!
 
 📌 *Main MD Repo*:
-https://github.com/Obedweb/KEENLY-XMD
+https://github.com/lordrahl2-sys/Lord-lahl
 
 💡 *Tip*: Fork & ⭐ to show love!
 💖 Thanks for choosing KEENLY XMD!
@@ -69,7 +69,7 @@ https://github.com/Obedweb/KEENLY-XMD
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363416335506023@newsletter',
-                newsletterName: '𝙺𝙴𝙴𝙽𝙻𝚈 𝚇𝙼𝙳 💖🦄',
+                newsletterName: 'ʟᴏʀᴅ ʀᴀʜʟ 💖🦄',
                 serverMessageId: 143
             }
         };
@@ -83,7 +83,7 @@ https://github.com/Obedweb/KEENLY-XMD
         // Send a related image with forward tag
         await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/9yic1a.jpg` },
-            caption: "🌟 *𝙺𝙴𝙴𝙽𝙻𝚈 𝚇𝙼𝙳: Powering smart chats everywhere!*",
+            caption: "🌟 *ʟᴏʀᴅ ʀᴀʜʟ: Powering smart chats everywhere!*",
             contextInfo: contextTag
         }, { quoted: mek });
 
