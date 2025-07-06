@@ -44,7 +44,7 @@ async function sendMenu(conn, from, mek, sender, text, title, sendAudio = false)
 
 // Main Menu
 cmd({
-  pattern: "menu",
+  pattern: "menu2",
   desc: "Display all bot commands",
   category: "menu",
   react: "💖",
