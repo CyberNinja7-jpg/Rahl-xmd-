@@ -1,7 +1,7 @@
-**LORD RAHL BOT**
+**𝙇𝙊𝙍𝘿 𝙍𝘼𝙃𝙇 𝘽𝙊𝙏**
 
 <div align="center">
-  <img src="https://files.catbox.moe/n78t6r.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
+  <img src="https://files.catbox.moe/yedfbr.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
 </div>
 
 
@@ -32,15 +32,8 @@
   </a>
 </p>
 
-<!-- Referral Code -->
-<p align="center">
-  <b>Referral Code for Railway:</b> <code>AqkNn4</code>
-</p>
 
 
 
 
-  **coding has started soon you will be updated when LORD RAHL is done**
 
-
-`Thanks to ObedTech` 🌎
