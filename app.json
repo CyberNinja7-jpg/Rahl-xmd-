@@ -1,7 +1,7 @@
 {
-  "name": "𝙆𝙀𝙀𝙉𝙇𝙔 𝙓𝙈𝘿",
+  "name": "𝙇𝙊𝙍𝘿 𝙍𝘼𝙃𝙇",
   "description": "Javascript WhatsApp bot made by Silva.",
-  "keywords": ["Keenly-xmd"],
+  "keywords": ["Lord rahl"],
   "success_url": "/",
 
     "stack": "container",
@@ -15,7 +15,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://res.cloudinary.com/dgy2dutjs/image/upload/v1751655991/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C_n6bjii.jpg"
+      "value": "https://files.catbox.moe/yedfbr.jpg"
     }, 
     
     "LIVE_MSG": {
@@ -94,13 +94,13 @@
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*🎉👀 ꜱᴇᴇɴ ʙʏ ᴋᴇᴇɴʏ xᴍᴅ 🚀🔥*"
+      "value": "*🎉👀 ꜱᴇᴇɴ ʙʏ lord rahl 🚀🔥*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ᴏʙᴇᴅ ᴛᴇᴄʜ"
+      "value": "ℝ𝕠𝕣𝕕 𝕣𝕒𝕙𝕝"
 }, 
 
     "OWNER_NUMBER": {
@@ -113,7 +113,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "✦ 𝙆𝙀𝙀𝙉𝙇𝙔 𝙓𝙈𝘿 ✦"
+      "value": "✦ 𝙇𝙊𝙍𝘿 𝙍𝘼𝙃𝙇 ✦"
 
       }, 
 
@@ -133,7 +133,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ✦ 𝙆𝙀𝙀𝙉𝙇𝙔 𝙓𝙈𝘿 ✦*"
+      "value": "*© ✦ 𝙇𝙊𝙍𝘿 𝙍𝘼𝙃𝙇 ✦*"
     },
 
       "DELETE_LINKS": {
