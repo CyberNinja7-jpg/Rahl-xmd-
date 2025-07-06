@@ -64,7 +64,7 @@ cmd({
       'isForwarded': true,
       'forwardedNewsletterMessageInfo': {
         'newsletterJid': '120363416335506023@newsletter',
-        'newsletterName': "KEENLY XMD 🥰",
+        'newsletterName': "𝐋𝐎𝐑𝐃 𝐑𝐀𝐇𝐋 🥰",
         'serverMessageId': 0x8f
       }
     };
