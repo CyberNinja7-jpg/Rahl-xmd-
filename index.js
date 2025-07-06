@@ -110,7 +110,7 @@ console.log("Session downloaded ✅")
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there ✦ LORD RAHL ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by Lord rahl \ud83c\udf8a, Meet ✦ LORD RAHL ✦  WhatsApp Bot.\n\n *Thanks for using ✦ LORD RAHIL ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VbALNKAAe5VjwDCu7l2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/lordrahl2-sys/Lord-lahl\n\n> © Powered BY ✦ LORD RAHL ✦ \ud83d\udda4`;
+  let up = `*Hello there ✦ LORD RAHL ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by Lord rahl \ud83c\udf8a, Meet ✦ LORD RAHL ✦  WhatsApp Bot.\n\n *Thanks for using ✦ LORD RAHIL ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VbALNKAAe5VjwDCu7l2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/lordrahl2-sys/Lord-Rahl\n\n> © Powered BY ✦ LORD RAHL ✦ \ud83d\udda4`;
   conn.sendMessage(conn.user.id, { image: { url:`https://files.catbox.moe/yedfbr.jpg` }, caption: up })
   }
   })
